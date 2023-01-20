@@ -1,0 +1,14 @@
+function readCSV {
+    param([string]$filePath)
+    
+    $PSArray = Import-Csv -Path $filepath
+
+    return $PSArray
+
+}
+
+for ($i =0 ; $i -lt $PSArray ; $i++)
+{
+    $PSArray
+
+}
